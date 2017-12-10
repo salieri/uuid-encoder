@@ -4,7 +4,7 @@
   "description": "Encode UUIDs into Base36 or any other system",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive test/"
   },
   "repository": {
     "type": "git",
@@ -24,16 +24,19 @@
   "author": "Aleksi Asikainen <aleksi.asikainen@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/franksrevenge/uuid-compressor/issues"
+    "url": "https://github.com/franksrevenge/uuid-encoder/issues"
   },
-  "homepage": "https://github.com/franksrevenge/uuid-compressor#readme",
+  "homepage": "https://github.com/franksrevenge/uuid-encoder#readme",
   "dependencies": {
     "big-integer": "^1.6.26"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "^4.9.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.7.0",
-    "mocha": "^4.0.1"
+    "lodash": "^4.17.4",
+    "mocha": "^4.0.1",
+    "should": "^13.1.3"
   }
 }
