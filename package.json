@@ -21,6 +21,9 @@
     "base36",
     "base32"
   ],
+  "files": [
+    "lib"
+  ],
   "author": "Aleksi Asikainen <aleksi.asikainen@gmail.com>",
   "license": "MIT",
   "bugs": {
