@@ -1,0 +1,39 @@
+{
+  "name": "uuid-encoder",
+  "version": "1.0.0",
+  "description": "Encode UUIDs into Base36 or any other system",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franksrevenge/uuid-encoder.git"
+  },
+  "keywords": [
+    "uuid",
+    "compress",
+    "compressor",
+    "compact",
+    "encode",
+    "encoder",
+    "encoding",
+    "base36",
+    "base32"
+  ],
+  "author": "Aleksi Asikainen <aleksi.asikainen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franksrevenge/uuid-compressor/issues"
+  },
+  "homepage": "https://github.com/franksrevenge/uuid-compressor#readme",
+  "dependencies": {
+    "big-integer": "^1.6.26"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^4.0.1"
+  }
+}
