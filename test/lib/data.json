@@ -1,5 +1,5 @@
 {
-  "encodings" : ["base2", "base10", "base16", "base32", "base36"],
+  "encodings" : ["base2", "base10", "base16", "base32", "base36", "base58", "base62", "base64"],
 
   "uuids" : [
     "00000000-0000-0000-0000-000000000000",

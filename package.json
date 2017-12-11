@@ -19,7 +19,9 @@
     "encoder",
     "encoding",
     "base36",
-    "base32"
+    "base32",
+    "base58",
+    "base62"
   ],
   "files": [
     "lib"

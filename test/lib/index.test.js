@@ -27,8 +27,15 @@ describe(
 
                 decoded.should.equal(uuid);
 
-                (() => (encoder.decode(encoded.toLowerCase()))).should.not.Throw();
-                (() => (encoder.decode(encoded.toUpperCase()))).should.not.Throw();
+                if (UuidEncoder.isCaseSensitiveBase(encoding) === false) {
+                  const upper = encoded.toUpperCase();
+                  const lower = encoded.toLowerCase();
+
+                  (() => (encoder.decode(lower))).should.not.Throw();
+                  (() => (encoder.decode(upper))).should.not.Throw();
+
+                  encoder.decode(lower).should.equal(encoder.decode(upper));
+                }
               },
             );
           },

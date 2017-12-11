@@ -45,8 +45,11 @@ Returns a string containing the decoded UUID from `str`.
 | `'base2'`  | 0-1      | Binary encoding |
 | `'base10'` | 0-9      | Decimal encoding |
 | `'base16'` | 0-9, a-f | Hexadecimal encoding |
-| `'base32'` | _Custom_ | Crockford's Base32 |
+| `'base32'` | _Custom_ | Crockford's Base 32 |
 | `'base36'` | 0-9, a-z | Base 36 (default) |
+| `'base58'` | _Custom_ | Bitcoin Base 58 |
+| `'base62'` | 0-9, A-Z, a-z | Base 62 |
+| `'base64'` | 0-9, A-Z, a-z, +, / | Base 64 |
 
 
 
