@@ -1,6 +1,6 @@
 {
   "name": "uuid-encoder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Encode UUIDs into Base36 or any other system",
   "main": "lib/index.js",
   "scripts": {

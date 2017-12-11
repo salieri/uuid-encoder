@@ -26,6 +26,9 @@ describe(
                 const decoded = encoder.decode(encoded);
 
                 decoded.should.equal(uuid);
+
+                (() => (encoder.decode(encoded.toLowerCase()))).should.not.Throw();
+                (() => (encoder.decode(encoded.toUpperCase()))).should.not.Throw();
               },
             );
           },
@@ -54,6 +57,8 @@ describe(
             const decoded = encoder.decode(encoded);
 
             decoded.should.equal(uuid);
+
+            (() => (encoder.decode(encoded.toLowerCase()))).should.Throw();
           },
         );
       },

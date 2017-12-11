@@ -8,10 +8,10 @@ Convert UUIDs into Base32, Base36, or any other encoding of your choice.
 ## Usage
 
 ```js
-const UuidCompressor = require('uuid-compressor');
+const UuidEncoder = require('uuid-encoder');
 
 // Create Base 36 encoder
-const encoder = new UuidCompressor('base36');
+const encoder = new UuidEncoder('base36');
 
 // Encode an UUID
 const encodedUuid = encoder.encode('38b9823d-fa1a-48e7-91fc-ee16ad091cf2');
@@ -53,8 +53,10 @@ Returns a string containing the decoded UUID from `str`.
 ## Custom Encoding
 
 To use a different set or count of encoding characters, simply pass a string
-containing every desired letter to the constructor:
+containing every desired letter to the constructor.
+
+All custom encoding sets are **case sensitive**.
 
 ```js
-const encoder = new UuidCompressor('02468ACEGI'); // weird base10
+const encoder = new UuidEncoder('02468ACEGI'); // weird base10
 ```
