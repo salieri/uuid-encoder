@@ -2,7 +2,7 @@
 
 Convert UUIDs into Base32, Base36, or any other encoding of your choice.
 
-[![Build Status](https://travis-ci.org/franksrevenge/uuid-encoder.svg?branch=master)](https://travis-ci.org/franksrevenge/uuid-encoder) [![Coverage Status](https://coveralls.io/repos/github/franksrevenge/uuid-encoder/badge.svg?branch=master)](https://coveralls.io/github/franksrevenge/uuid-encoder?branch=master) [![Dependency Status](https://david-dm.org/franksrevenge/uuid-encoder/status.svg)](https://david-dm.org/franksrevenge/uuid-encoder#info=dependencies&view=table) [![Dev Dependency Status](https://david-dm.org/franksrevenge/uuid-encoder/dev-status.svg)](https://david-dm.org/franksrevenge/uuid-encoder#info=devDependencies&view=table)
+[![Build Status](https://travis-ci.org/salieri/uuid-encoder.svg?branch=master)](https://travis-ci.org/salieri/uuid-encoder) [![Coverage Status](https://coveralls.io/repos/github/salieri/uuid-encoder/badge.svg?branch=master)](https://coveralls.io/github/salieri/uuid-encoder?branch=master) [![Dependency Status](https://david-dm.org/salieri/uuid-encoder/status.svg)](https://david-dm.org/salieri/uuid-encoder#info=dependencies&view=table) [![Dev Dependency Status](https://david-dm.org/salieri/uuid-encoder/dev-status.svg)](https://david-dm.org/salieri/uuid-encoder#info=devDependencies&view=table)
 
 
 ## Usage

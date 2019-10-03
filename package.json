@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/franksrevenge/uuid-encoder.git"
+    "url": "git+https://github.com/salieri/uuid-encoder.git"
   },
   "keywords": [
     "uuid",
@@ -29,9 +29,9 @@
   "author": "Aleksi Asikainen <aleksi.asikainen@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/franksrevenge/uuid-encoder/issues"
+    "url": "https://github.com/salieri/uuid-encoder/issues"
   },
-  "homepage": "https://github.com/franksrevenge/uuid-encoder#readme",
+  "homepage": "https://github.com/salieri/uuid-encoder#readme",
   "dependencies": {
     "big-integer": "^1.6.46"
   },
