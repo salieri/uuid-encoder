@@ -50,6 +50,7 @@ Returns a string containing the decoded UUID from `str`.
 | `'base58'` | _Custom_ | Bitcoin Base 58 |
 | `'base62'` | 0-9, A-Z, a-z | Base 62 |
 | `'base64'` | 0-9, A-Z, a-z, +, / | Base 64 |
+| `'base64url'` | 0-9, A-Z, a-z, -, _ | Base 64 URL encoding (RFC 4648) |
 
 
 
